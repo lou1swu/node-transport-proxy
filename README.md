@@ -5,7 +5,7 @@
 [![NODE Version](https://img.shields.io/node/v/node-transport-proxy.svg)](https://www.npmjs.com/package/node-transport-proxy)
 [![CircleCI](https://circleci.com/gh/Lighting-Jack/node-transport-proxy/tree/master.svg?style=svg)](https://circleci.com/gh/Lighting-Jack/node-transport-proxy/tree/master)
 
-node 透明代理  转发。支持 http,https,ws,wss。
+node 透明代理转发。支持 http,https,ws,wss。
 
 [中文版文档](./README.md)
 
@@ -33,11 +33,11 @@ ntp <command> [options]
 
 - 配置系统全局的 web 代理<br/>
   以 macOS 为例<br/>
-  `打开网络偏好设置`->`高级`->`代理`， 勾选网页代理(http)和安全网页代理(https)，然后  在 host 和 port 处都填上你的 ntp 服务监听的 host 和 port 就可以了。
+  `打开网络偏好设置`->`高级`->`代理`，勾选网页代理(http)和安全网页代理(https)，然后在 host 和 port 处都填上你的 ntp 服务监听的 host 和 port 就可以了。
   ![](doc/proxyConfig.png)
 - 配置浏览器的 web 代理<br/>
-  以 chrome 浏览器为例<br/>
-  1. 安装 chrome 浏览器插件[Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
+  以 chrome 浏览器为例<br/>
+  1. 安装 chrome 浏览器插件[Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
   2. 配置[Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)<br/>
      ![](doc/swichOmega.png)
 
@@ -48,7 +48,7 @@ ntp <command> [options]
 - restart 重启 ntp 代理服务
 - status 显示目前后台正在运行的 ntp 代理服务
 
-## Options Reference
+## Options Reference
 
 - host
 - port
