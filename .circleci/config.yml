@@ -1,0 +1,13 @@
+version: 2.1
+
+jobs:
+  build:
+    working_directory: ~/node-transport-proxy
+    docker:
+      - image: circleci/node:11
+    steps:
+      - checkout
+      - run: ls -al ~/node-transport-proxy
+      - run: yarn install
+      - run: yarn --version
+      - run: npm run test
