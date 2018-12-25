@@ -21,7 +21,7 @@ describe('Node Transport Proxy Test[Through Proxy]', () => {
       resolveWithFullResponse: true
     })
     expect(res.toJSON().statusCode).toBe(200)
-  }, 2000)
+  }, 5000)
   test('https-test', async () => {
     const res = await request({
       method: 'GET',
@@ -30,7 +30,7 @@ describe('Node Transport Proxy Test[Through Proxy]', () => {
       resolveWithFullResponse: true
     })
     expect(res.toJSON().statusCode).toBe(200)
-  }, 2000)
+  }, 5000)
 
   afterAll(async () => {
     setTimeout(proxyClient.close.bind(proxyClient), 0)
