@@ -5,7 +5,7 @@
 [![NODE Version](https://img.shields.io/node/v/node-transport-proxy.svg)](https://www.npmjs.com/package/node-transport-proxy)
 [![CircleCI](https://circleci.com/gh/Lighting-Jack/node-transport-proxy/tree/master.svg?style=svg)](https://circleci.com/gh/Lighting-Jack/node-transport-proxy/tree/master)
 
-node 透明代理转发。支持 http,https,ws,wss。
+node 透明代理转发(盲中继)。支持 http,https,ws,wss。
 
 [中文版文档](./README.md)
 
@@ -56,8 +56,9 @@ ntp <command> [options]
 
 ## TODO LIST
 
-- [ ] 支持 socks4,socks5 代理转发 
+- [ ] 支持 socks4,socks5 代理转发 
 - [ ] 支持代理验证
+- [ ] 支持维护长连接
 
 ## Licence
 
