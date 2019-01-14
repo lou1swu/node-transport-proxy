@@ -1,6 +1,6 @@
 {
   "name": "node-transport-proxy",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "node透明代理",
   "main": "./dist/index.js",
   "bin": {
