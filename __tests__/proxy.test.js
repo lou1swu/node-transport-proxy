@@ -1,8 +1,8 @@
 const transportProxy = require('../dist/index')
 const request = require('request-promise')
 
-const TEST_HTTP_DOMAIN = 'http://www.example.com'
-const TEST_HTTPS_DOMAIN = 'https://www.example.com'
+const TEST_HTTP_DOMAIN = 'http://www.qq.com'
+const TEST_HTTPS_DOMAIN = 'https://www.qq.com'
 const PROXY_HOST = '127.0.0.1'
 const PROXY_PORT = 8888
 
