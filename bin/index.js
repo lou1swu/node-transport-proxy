@@ -132,7 +132,7 @@ function showStatus({ host, port, proxy }, isSilent) {
 // 辅助信息
 program
   .version(pkgJson.version)
-  .description('简易node透明代理')
+  .description('简易的node透明代理')
   .usage('ntp <command> [options]')
 
 // command
